@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+p
+{
+	font-size: 16px;
+	font-family: 'comic-sans';
+}
+
+body
+{
+	background: #274286;
+}
+
+.active
+{
+	border-bottom: solid 2px white;
+	color: white;
+	opacity: 1 !important;
+	padding-bottom: 15px;
+	text-decoration-line: none;
+}

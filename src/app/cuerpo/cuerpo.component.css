@@ -1,0 +1,79 @@
+.boton-div
+{
+	margin-top: 10px;
+	margin-left: -15px;
+}
+
+.boton-toggle
+{
+	text-align: left;
+}
+
+.cuerpo-div
+{
+	background: #274286;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+}
+
+.navigation
+{
+	text-align: center;
+}
+
+.navigation ul
+{
+	padding: 20px;
+}
+
+.navigation ul li
+{
+	color: white;
+	display: inline-block;
+	margin: 12px;
+}
+
+
+.navigation ul li a
+{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	opacity: 0.5;
+}
+
+.navigation ul li a:hover
+{
+	border-bottom: solid 2px white;
+	color: white;
+	opacity: 1;
+	padding-bottom: 15px;
+	text-decoration-line: none;
+}
+
+@media (min-width: 576px) { 
+
+	.navigation ul li a:hover
+	{
+		border-bottom: none;
+		color: white;
+		opacity: 1;
+		padding-bottom: 15px;
+		text-decoration-line: none;
+	}
+
+ }
+
+ @media (min-width: 768px) {
+
+	.navigation ul li a:hover
+	{
+		border-bottom: none;
+		color: white;
+		opacity: 1;
+		padding-bottom: 15px;
+		text-decoration-line: none;
+	}
+
+ }

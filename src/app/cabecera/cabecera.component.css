@@ -1,0 +1,53 @@
+.cabecera-div
+{
+	background: #3154ab;
+	box-shadow: rgba(0,0,0.5,0) 1px 1px 5px;
+	padding: 22px;
+}
+
+.nombre-titulo
+{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+@media (max-width: 575.98px) {
+	
+	.imagen-user
+	{
+		margin-bottom: 30px;
+	}
+
+	.cabecera-div
+	{
+		text-align: center;
+	}
+
+	.nombre-titulo
+	{
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767.98px) {
+
+.imagen-user
+	{
+		margin-bottom: 30px;
+	}
+
+	.cabecera-div
+	{
+		text-align: center;
+	}
+
+	.nombre-titulo
+	{
+		margin-bottom: 20px;
+	}
+
+}

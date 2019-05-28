@@ -1,0 +1,25 @@
+
+nav
+{
+	padding: 0px !important;
+	text-align: center;
+}
+
+nav ul
+{
+	padding: 0px !important;
+}
+
+nav ul li:hover
+{
+	background: #274286;
+}
+
+nav ul li
+{
+	list-style: none;
+	color: white;
+	padding: 25px;
+}
+
+

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'avla';
+  title = 'Sistema Avla';
+}
+
+export class Mostrar {
+	public muestra = 'block';
+}
+
+export class SidenavAutosizeExample {
+  showFiller = false;
 }
