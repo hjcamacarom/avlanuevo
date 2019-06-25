@@ -9,6 +9,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { CuerpoComponent } from './cuerpo/cuerpo.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { DatosComponent } from './datos/datos.component';
+import { GoogleComponent } from './google/google.component';
 import { BotonComponent } from './boton/boton.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -24,6 +25,7 @@ import { MaterialModule } from './material';
     TablaComponent,
     DatosComponent,
     BotonComponent,
+    GoogleComponent,
     SidenavComponent
   ],
   imports: [

@@ -1,0 +1,78 @@
+.google-div
+{
+	background: white;
+	border-radius: 30px;
+	box-shadow: rgba(0,0,0.5,0.5) 2px 2px 5px;
+	padding: 20px;
+}
+
+.card-header
+{
+	background: #76B2EA !important;
+}
+
+.btn-link
+{
+	color: white !important;
+}
+
+.btn-link:hover
+{
+	text-decoration-line: none;
+}
+
+th
+{
+	font-size: 14px !important;
+	font-family: 'Montserrat' !important;
+	font-weight: 600 !important;
+}
+
+.tabla-doble
+{
+	border: none;
+}
+
+.tabla-borde
+{
+	border-right: solid 2px #80808033;
+}
+
+.table-responsive {
+   overflow-x: hidden !important;
+}
+
+.card
+{
+	border: none !important;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+
+	.table-responsive 
+	{
+   		overflow-x: auto !important;
+	}
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+	.table-responsive 
+		{
+	   		overflow-x: auto !important;
+		}
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+
+	.table-responsive 
+	{
+   		overflow-x: auto !important;
+	}
+
+ }
